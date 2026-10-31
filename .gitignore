@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Android Build artifacts
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/.idea/
+*.iml
+.gradle/
+
+# Web Build output
+dist/
+build/
+.cache/
+pharmaguard-frontend-main/public/*.apk
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Sensitive credentials
+.env.local
